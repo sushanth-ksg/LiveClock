@@ -8,8 +8,10 @@
     <title>Live Clock</title>
 </head>
 <body oncontextmenu="return false;">
-    <audio src="src/mybgm.mp3" autoplay></audio>
-
+    <audio autoplay loop>
+        <source src="src/mybgm.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio>
     <div class="entire">
         <div class="heading">
             <h1 id="change">LIVE CLOCK</h1>
